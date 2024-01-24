@@ -41,7 +41,10 @@ class OnBoardingScreen extends StatelessWidget {
                         onTap: () {
                           Navigator.pushReplacementNamed(
                               context, "/MyHomePage");
-                        },
+                        }, 
+
+
+                        
                         child: const ArrowButton(
                           buttonWidth: 150,
                           buttonHeight: 60,
