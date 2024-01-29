@@ -40,6 +40,9 @@ class OnBoardingScreen extends StatelessWidget {
                     ? GestureDetector(
                         onTap: () {
                           Navigator.pushReplacementNamed(
+                           
+                           
+                           
                               context, "/MyHomePage");
                         }, 
                         child: const ArrowButton(
